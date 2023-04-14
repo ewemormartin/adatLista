@@ -22,3 +22,8 @@ export function rendezes(lista, kulcs) {
     }
 }
 
+function rendezesFajtaszerint(lista, kulcs) {
+    lista.sort( function(a, b ){
+        
+    })
+}
