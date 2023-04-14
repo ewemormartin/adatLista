@@ -10,7 +10,7 @@ $(function () {
     console.log(ADATLISTA);
     console.log(szures(ADATLISTA, "fajta", "keverék"));
 
-    const TABLAZATELEM = $("#admin");
+    const TABLAZATELEM = $("#fovezer");
     const NEVINPUTELEM = $("#nev");
     const KORINPUTELEM = $("#kor");
     const FAJTAINPUTELEM = $("#fajta");
@@ -19,6 +19,7 @@ $(function () {
     let tartalom = megjelenit(ADATLISTA);
     TABLAZATELEM.append(tartalom);
 
+    
 
     $("th").on("click", function () {
         let index = $(this).index();
