@@ -83,3 +83,5 @@ KORINPUTELEM.on("input", function () {
     let tartalom = megjelenit(szurtlista);
     $("table").replaceWith(tartalom);
 });
+
+
