@@ -50,19 +50,19 @@ $(function () {
 
 function megjelenit(lista) {
     let txt = "";
-    txt += "<table class='table table-striped table dark'>";
+    txt += "<table class='table table-striped  table-hover '>";
     txt += "<tr>";
     for (let kulcs in lista[0]) {
         txt += "<th class='table-dark'>" + kulcs + "</th>";
     }
-    txt += "<th class='table-dark'></th>";
+    txt += "<th class=''></th>";
     txt += "</tr>";
     for (let index = 0; index < lista.length; index++) {
         txt += "<tr>";
         for (let kulcs in lista[index]) {
             txt += "<td>" + lista[index][kulcs] + "</td>";
         }
-        txt += "<td class='torol' id='" + index + "'>X</td>";
+        txt += "<td class='' id='" + index + "'>X</td>";
         txt += "</tr>";
     }
     txt += "</table>";
