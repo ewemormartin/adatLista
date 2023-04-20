@@ -50,7 +50,7 @@ $(function () {
 
 function megjelenit(lista) {
     let txt = "";
-    txt += "<table class='table table-bordered'>";
+    txt += "<table class='table table-striped table dark'>";
     txt += "<tr>";
     for (let kulcs in lista[0]) {
         txt += "<th class='table-dark'>" + kulcs + "</th>";
